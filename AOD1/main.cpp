@@ -42,7 +42,6 @@ int main()
     for(razr = 1; razr < 10; razr++) // отправление массива в функцию для сортировки
         sort_razr(dop_mas, mas, razr);
     for(int i = 0; i < n; i++)
-        cout << mas[i] << endl; //вывод отсортированного массива
+        cout « mas[i] « endl; //вывод отсортированного массива
     return 0;
 }
-
